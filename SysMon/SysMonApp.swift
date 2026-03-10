@@ -8,10 +8,12 @@
 import SwiftUI
 
 @main
-struct SysMonApp: App {
+struct SystemMonitorApp: App {
+    @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        Settings {
+            EmptyView() // no settings window
         }
     }
 }
