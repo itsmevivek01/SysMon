@@ -1,0 +1,16 @@
+# Xcode project user data
+*.xcuserstate
+*.xcworkspace
+xcuserdata/
+
+# Build products
+DerivedData/
+build/
+
+# macOS system files
+.DS_Store
+
+# App bundles and archives
+*.app
+*.ipa
+*.dSYM
