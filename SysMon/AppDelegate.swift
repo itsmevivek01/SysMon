@@ -21,7 +21,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     var showRAM = true
 
     func applicationDidFinishLaunching(_ notification: Notification) {
-        statusItem = NSStatusBar.system.statusItem(withLength: 55)
+        statusItem = NSStatusBar.system.statusItem(withLength: 40)
 
         // Stack view for labels
         let stackView = NSStackView()
@@ -72,7 +72,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         } else {
             let disk = getDiskFreeSpace()
             cpuLabel.stringValue = "CPU: \(cpuUsage)%"
-            infoLabel.stringValue = "DSK: \(disk.free) GB"
+            infoLabel.stringValue = "DSK: \(disk.free)GB"
         }
     }
 
