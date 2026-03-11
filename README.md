@@ -1,4 +1,5 @@
 ## SysMon 
+<img width="100" height="100" alt="sys git" src="https://github.com/user-attachments/assets/4ef60356-00c3-4c6c-a602-ca2a8398ebb3" />
 
 **SysMon** is a lightweight macOS menu bar tool that shows your system’s CPU and RAM usage in real time.  
 Designed for simplicity, it uses **minimal space on the menu bar**, so you can monitor performance without clutter.
